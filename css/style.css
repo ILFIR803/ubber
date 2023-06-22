@@ -103,9 +103,7 @@ nav {
   background-image: none;
   background-color: #1eacc7;
 }
-.xs-visible {
-  display: none;
-}
+
 .promo {
   min-height: 800px;
   background: url(../img/first_img.jpg) center center/cover no-repeat;
@@ -516,7 +514,9 @@ footer a:hover {
   text-transform: uppercase;
   text-align: center;
 }
-
+.xs-visible {
+  display: none;
+}
 @media (max-width: 1200px) {
   .menu_link {
     font-size: 13px;
