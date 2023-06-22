@@ -39,9 +39,7 @@ nav {
   border-right: none;
 }
 
-.xs-visible {
-  display: none;
-}
+
 
 .hamburger {
   display: none;
@@ -105,7 +103,9 @@ nav {
   background-image: none;
   background-color: #1eacc7;
 }
-
+.xs-visible {
+  display: none;
+}
 .promo {
   min-height: 800px;
   background: url(../img/first_img.jpg) center center/cover no-repeat;
